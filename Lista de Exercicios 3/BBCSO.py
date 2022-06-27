@@ -39,7 +39,7 @@ class Gato:
             self.clones += [clone]
 
     def evaluate_clones(self):
-        for c in clones:
+        for c in self.clones:
             self.clones_evaluation += [sum(c)]
 
     def roulette_selection(self):
