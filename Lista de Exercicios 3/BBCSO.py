@@ -13,10 +13,7 @@ smp = 6
 pmo = .2
 cdc = 20
 iterations = 100  # max number of iterations
-nd = 50 # num dimensions
-w = 0.75  # inertia constant
-c1 = 1  # cognative constant
-c2 = 2  # social constant
+nd = 500 # num dimensions
 
 class Gato:
     def __init__(self, mode):
